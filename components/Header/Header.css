@@ -1,0 +1,29 @@
+header {
+	height: 15svh;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--pf-jcbs-tertiary);
+}
+
+header > div > img {
+    height: 80px;
+} 
+
+header ul {
+	display: flex;
+	gap: 2rem;
+	list-style-type: none;
+}
+
+a {
+    color: var(--pf-jcbs-tertiary);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--pf-jcbs-dark);
+    font-family: var(--pf-jcbs-brand);
+    font-size: 20px;
+}

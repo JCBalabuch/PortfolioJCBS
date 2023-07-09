@@ -1,0 +1,53 @@
+:root {
+  /* COLOR PALETTE  */
+  --pf-jcbs-primary: #e3dad0;
+  --pf-jcbs-secondary: #ddc9be;
+  --pf-jcbs-tertiary: #cc8561;
+  --pf-jcbs-dark: #344960;
+
+  /* TIPOGRAPHY */
+  --pf-jcbs-brand: "Great Vibes";
+  --pf-jcbs-normal: "Tenor Sans";
+
+  /* BOX-SHADOW */
+  --pf-jcbs-boxshadow: 0px 0px 10px var(--pf-jcbs-tertiary);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Great Vibes", cursive;
+  font-family: "Tenor Sans", sans-serif;
+}
+
+body {
+  background-color: var(--pf-jcbs-primary);
+  color: var(--pf-jcbs-tertiary);
+  font-family: var(--pf-jcbs-normal);
+}
+
+main {
+  min-height: 75svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+main > * {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
