@@ -3,6 +3,12 @@ import "./Footer.css"
 const Footer = () => {
     const footer = document.querySelector("footer");
 
+    const creator = document.createElement("div");
+    creator.className= "creator"
+
+    const rightReserved = document.createElement("div");
+    rightReserved.className= "rightReserved"
+
     const lnkIn = document.createElement("a");
     lnkIn.href = "https://www.linkedin.com/in/jenifferbalabuch/";
     lnkIn.target = "blank";
@@ -26,10 +32,18 @@ const Footer = () => {
     jcbs.src = "./public/LogoJCBS.png";
     jcbs.alt = "Personal Logo";
 
-    footer.appendChild(lnkIn);
-    footer.appendChild(gitHub);
-    footer.appendChild(paragraph);
-    footer.appendChild(jcbs);
+    const rights = document.createElement("p");
+    rights.textContent = "All rights reserved ®";
+    rights.className = "rights"
+
+    creator.appendChild(lnkIn);
+    creator.appendChild(gitHub);
+    creator.appendChild(paragraph);
+    creator.appendChild(jcbs);
+    rightReserved.appendChild(rights);
+
+    footer.appendChild(creator);
+    footer.appendChild(rightReserved);
 
     document.body.appendChild(footer);
 

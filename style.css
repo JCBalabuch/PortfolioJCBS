@@ -1,9 +1,11 @@
 :root {
   /* COLOR PALETTE  */
-  --pf-jcbs-primary: #e3dad0;
+  --pf-jcbs-primary: rgb(227, 218, 208);
   --pf-jcbs-secondary: #ddc9be;
-  --pf-jcbs-tertiary: #cc8561;
+  --pf-jcbs-tertiary: #b17152;
+  --pf-jcbs-quaternary: #8a6857;
   --pf-jcbs-dark: #344960;
+  --pf-jcbs-modal: rgba(227, 218, 208, 0.8);
 
   /* TIPOGRAPHY */
   --pf-jcbs-brand: "Great Vibes";
@@ -21,11 +23,12 @@
   list-style-type: none;
   font-family: "Great Vibes", cursive;
   font-family: "Tenor Sans", sans-serif;
+  position: relative;
 }
 
 body {
   background-color: var(--pf-jcbs-primary);
-  color: var(--pf-jcbs-tertiary);
+  color: var(--pf-jcbs-quaternary);
   font-family: var(--pf-jcbs-normal);
 }
 

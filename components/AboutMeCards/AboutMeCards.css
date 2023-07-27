@@ -1,0 +1,28 @@
+.aboutMeCards {
+    width: 100%;
+    margin: 20px;
+}
+
+.cards {
+    margin: 20px;
+}
+
+.cards > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    min-height: 250px;
+    background-color: var(--pf-jcbs-secondary);
+    border-radius: 20px;
+    box-shadow: var(--pf-jcbs-boxshadow);
+}
