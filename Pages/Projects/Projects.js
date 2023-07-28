@@ -1,10 +1,22 @@
+import { projectsGallery } from "../../components/ProjectsGallery/ProjectsGallery";
 import "./Projects.css";
 
-const Projects = () => {
+const projectsTemplate = () => {
   return `
-    <h2>Projects</h2>
-    <p>Acá van los proyectos de mi aplicación</p>
+    <section id="projectsTemplate">
+      ${projectsGallery()}
+    </section>
     `;
 };
 
-export default Projects;
+export default projectsTemplate;
+
+// const aboutTemplate = () => {
+//   return `
+//   <section id="about">
+//     ${aboutMeTemplate()}
+//     ${aboutMeCards()}
+//     ${aboutModalTemplate()}
+//   </section>
+//   `;
+// };
