@@ -30,10 +30,17 @@ export const PROJECTS = [
   },
   {
     projectName: "ColorFlipper",
-    projectImg: "./ProjectsPages/",
+    projectImg: "./ProjectsPages/ColorFlipperLogo.png",
     projectTechs: ["Terminal", "VSC", "HTML5", "CSS", "Javascript", "Github", "Netlify"],
     projectURL: "https://colorflipperjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/ColorFlipperJCBS",
+  },
+  {
+    projectName: "Closet Store",
+    projectImg: "./ProjectsPages/LogoStore.png",
+    projectTechs: ["Terminal", "VSC", "HTML5", "CSS", "Javascript", "Github", "Netlify"],
+    projectURL: "https://closetstorejcbs.netlify.app/",
+    projectGithub: "https://github.com/JCBalabuch/myStoreJCBS",
   },
   {
     projectName: "Titivillus BookStore",
@@ -44,49 +51,62 @@ export const PROJECTS = [
   },
 ];
 
-export const TECHS = [
-    {
-        techName: "Terminal",
-        techLogo: "./Techs/TerminalLogo.png"
-    },
-    {
-        techName: "VSC",
-        techLogo: "./Techs/VSCLogo.png"
-    },
-    {
-        techName: "HTML5",
-        techLogo: "./Techs/HTML5Logo.png"
-    },
-    {
-        techName: "CSS",
-        techLogo: "./Techs/CSS3Logo.png"
-    },
-    {
-        techName: "Javascript",
-        techLogo: "JavascriptLogo.png"
-    },
-    {
-        techName: "Github",
-        techLogo: "GithubLogo.png"
-    },
-    {
-        techName: "Netlify",
-        techLogo: "./Techs/NetlifyLogo.png"
-    }, 
-    {
-        techName: "Vercel",
-        techLogo: "./Techs/VercelLogo.png"
-    }, 
-    {
-        techName: "Node",
-        techLogo: "./Techs/NodeLogo.png"
-    }, 
-    {
-        techName: "React",
-        techLogo: "./Techs/ReactLogo.png"
-    }, 
+export const TECHS = {
+    Terminal: "./Techs/TerminalLogo.png",
+    VSC: "./Techs/VSCLogo.png",
+    HTML5: "./Techs/HTML5Logo.png",
+    CSS: "./Techs/CSS3Logo.png",
+    Javascript: "./Techs/JavascriptLogo.png",
+    Github: "./Techs/GithubLogo.png",
+    Netlify: "./Techs/NetlifyLogo.png",
+    Vercel: "./Techs/VercelLogo.png",
+    Node: "./Techs/NodeLogo.png",
+    React: "./Techs/ReactLogo.png"
+  }
 
-]
+// export const TECHS = [
+//     {
+//         techName: "Terminal",
+//         techLogo: "./Techs/TerminalLogo.png"
+//     },
+//     {
+//         techName: "VSC",
+//         techLogo: "./Techs/VSCLogo.png"
+//     },
+//     {
+//         techName: "HTML5",
+//         techLogo: "./Techs/HTML5Logo.png"
+//     },
+//     {
+//         techName: "CSS",
+//         techLogo: "./Techs/CSS3Logo.png"
+//     },
+//     {
+//         techName: "Javascript",
+//         techLogo: "JavascriptLogo.png"
+//     },
+//     {
+//         techName: "Github",
+//         techLogo: "GithubLogo.png"
+//     },
+//     {
+//         techName: "Netlify",
+//         techLogo: "./Techs/NetlifyLogo.png"
+//     }, 
+//     {
+//         techName: "Vercel",
+//         techLogo: "./Techs/VercelLogo.png"
+//     }, 
+//     {
+//         techName: "Node",
+//         techLogo: "./Techs/NodeLogo.png"
+//     }, 
+//     {
+//         techName: "React",
+//         techLogo: "./Techs/ReactLogo.png"
+//     }, 
+
+// ]
 
 export const aboutMeText = `I am a professional with 25 years of experience in the management and administrative area, who has decided to challenge herself to a career change towards Full Stack Developer.<br>
   <br>
