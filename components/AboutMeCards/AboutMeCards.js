@@ -1,4 +1,5 @@
 import { aboutCardsData } from "../../Data/Data";
+import { handleOpenModal } from "../AboutModal/AboutModal";
 // import { addAboutMeCardlisteners } from "../AboutModal/AboutModal";
 // import { addAboutMeCardlisteners } from "../AboutModal/AboutModal";
 import "./AboutMeCards.css";
@@ -16,8 +17,10 @@ const aboutCards = (cards) => {
 
     const divCard = document.createElement("div");
     divCard.classList.add("card");
-    divCard.id = card.aboutCardId;
-    divCard.setAttribute("role", "button");
+    // divCard.id = card.aboutCardId;
+    divCard.id = "cardModal"
+    // divCard.setAttribute("role", "button");
+    divCard.addEventListener("click", handleOpenModal)
 
     const cardImg = document.createElement("div");
     cardImg.classList.add("cardImg");

@@ -10,13 +10,3 @@ const projectsTemplate = () => {
 };
 
 export default projectsTemplate;
-
-// const aboutTemplate = () => {
-//   return `
-//   <section id="about">
-//     ${aboutMeTemplate()}
-//     ${aboutMeCards()}
-//     ${aboutModalTemplate()}
-//   </section>
-//   `;
-// };

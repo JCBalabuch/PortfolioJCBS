@@ -32,7 +32,7 @@
     align-items: center;
     text-align: center;
     padding: 20px;
-    /* gap: 20px; */
+    background-color: var(--pf-jcbs-secondary);
     transition:ease-in-out;
 }
 

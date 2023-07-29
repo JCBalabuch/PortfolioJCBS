@@ -1,7 +1,5 @@
 import "./AboutModal.css";
 
-const modalElement = document.querySelector("#aboutModal");
-
 export const aboutModalTemplate = () => {
   return `
     <div id="aboutModal" class="aboutModal">
@@ -14,22 +12,25 @@ export const aboutModalTemplate = () => {
     `;
 };
 
-// const handleOpenModal = () => {
-//   modalElement.style.display = "block";
-// };
+export const handleOpenModal = () => {
+    const modalElement = document.querySelector("#card");
+
+  modalElement.style.display = "block";
+  console.log("hola");
+};
 
 
 // export const addAboutMeCardlisteners = () => {
-//   const cards = document.querySelectorAll(".card");
+//   const cards = document.querySelectorAll("#cardModal");
 //   cards.forEach((card) => card.addEventListener("click", handleOpenModal));
+//   console.log(cards);
 // };
 
 
-// const handleCloseModal = () => {
-//     const closeModal = document.querySelector("#modalClose")
-//     closeModal.addEventListener("click", () => {
-//         modalElement.style.display = "none";
-//     })
-// }
+export const handleCloseModal = () => {
+    const closeModal = document.querySelector("#modalClose")
+    closeModal.addEventListener("click", () => {
+        modalElement.style.display = "none";
+    })
+}
 
-// handleCloseModal()

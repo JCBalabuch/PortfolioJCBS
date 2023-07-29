@@ -11,3 +11,7 @@
     box-shadow: var(--pf-jcbs-boxshadow);
     display: none;
 }
+
+.card {
+    cursor: pointer;
+}
