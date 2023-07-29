@@ -2,6 +2,8 @@ import './style.css'
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer'
 import { addListeners, router } from './router';
+import { aboutCardsData } from './Data/Data';
+import { aboutCards } from './components/AboutMeCards/AboutMeCards';
 // import { addAboutMeCardlisteners, handleCloseModal } from './components/AboutModal/AboutModal';
 
 
@@ -12,6 +14,6 @@ router();
 addListeners();
 
 // handleCloseModal();
-// setTimeout(() => {
-//     addAboutMeCardlisteners();
-// }, 1000);
+setTimeout(() => {
+    document.querySelector("#aboutMeCards").appendChild(aboutCards(aboutCardsData));
+}, 1000);

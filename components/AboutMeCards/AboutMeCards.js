@@ -4,13 +4,15 @@ import { handleOpenModal } from "../AboutModal/AboutModal";
 // import { addAboutMeCardlisteners } from "../AboutModal/AboutModal";
 import "./AboutMeCards.css";
 
-const aboutCards = (cards) => {
+export const aboutCards = (cards) => {
 
   const galleryCards = document.createElement("div");
   galleryCards.id = "cards";
   galleryCards.classList = "cards";
 
   const ulCards = document.createElement("ul");
+
+  console.log(cards);
 
   cards.forEach((card) => {
     const liCard = document.createElement("li");
@@ -47,7 +49,7 @@ const aboutCards = (cards) => {
 export const aboutMeCards = () => {
   return `
     <div id="aboutMeCards" class="aboutMeCards">
-        ${aboutCards(aboutCardsData).outerHTML}
+      
     </div>
     `;
 };

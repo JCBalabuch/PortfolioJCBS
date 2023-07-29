@@ -13,10 +13,12 @@ export const aboutModalTemplate = () => {
 };
 
 export const handleOpenModal = () => {
-    const modalElement = document.querySelector("#card");
 
-  modalElement.style.display = "block";
-  console.log("hola");
+    const modalElement = document.querySelector("#aboutModal");
+
+    modalElement.style.display = "block";
+    console.log("hola");
+
 };
 
 
@@ -30,7 +32,7 @@ export const handleOpenModal = () => {
 export const handleCloseModal = () => {
     const closeModal = document.querySelector("#modalClose")
     closeModal.addEventListener("click", () => {
-        modalElement.style.display = "none";
+        document.querySelector("#aboutModal").style.display = "none";
     })
 }
 
