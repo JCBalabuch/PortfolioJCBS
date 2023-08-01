@@ -1,5 +1,5 @@
 import { aboutCardsData } from "../../Data/Data";
-import { handleOpenModal } from "../AboutModal/AboutModal";
+import { handleOpenModal, modal } from "../AboutModal/AboutModal";
 // import { addAboutMeCardlisteners } from "../AboutModal/AboutModal";
 // import { addAboutMeCardlisteners } from "../AboutModal/AboutModal";
 import "./AboutMeCards.css";
@@ -12,17 +12,15 @@ export const aboutCards = (cards) => {
 
   const ulCards = document.createElement("ul");
 
-  console.log(cards);
-
   cards.forEach((card) => {
     const liCard = document.createElement("li");
 
     const divCard = document.createElement("div");
     divCard.classList.add("card");
-    // divCard.id = card.aboutCardId;
-    divCard.id = "cardModal"
-    // divCard.setAttribute("role", "button");
-    divCard.addEventListener("click", handleOpenModal)
+    divCard.id = card.aboutCardId;
+    divCard.addEventListener("click", handleOpenModal);
+
+    console.log(divCard.id)
 
     const cardImg = document.createElement("div");
     cardImg.classList.add("cardImg");
@@ -42,14 +40,15 @@ export const aboutCards = (cards) => {
   });
 
   galleryCards.appendChild(ulCards);
+
+  modal(cards); //SI DEBE FUNCIONAR ACÁ MISMO
+
   return galleryCards;
 
 };
 
 export const aboutMeCards = () => {
   return `
-    <div id="aboutMeCards" class="aboutMeCards">
-      
-    </div>
+    <div id="aboutMeCards" class="aboutMeCards"></div>
     `;
 };

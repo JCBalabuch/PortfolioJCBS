@@ -3,6 +3,10 @@
     margin: 20px;
 }
 
+/* .aboutMeCards > .cards * {
+    pointer-events: none;
+} */
+
 .cards {
     margin: 20px;
 }
