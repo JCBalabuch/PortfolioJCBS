@@ -1,85 +1,94 @@
 #projectsTemplate {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #projectsTemplate > h2 {
-    margin: 30px 0;
-    text-align: center;
-    font-size: 3rem;
-    font-family: "Great Vibes", cursive;
+  margin: 30px 0;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Great Vibes", cursive;
 }
 
 .projectsGallery {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .ulProjectCards {
-    margin: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 50px
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
 }
 
 .divProjectCard {
-    border-radius: 8px;
-    width: auto;
-    height: 100%;
-    box-shadow: var(--pf-jcbs-boxshadow);
-    display: block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    background-color: var(--pf-jcbs-secondary);
-    transition:ease-in-out;
+  border-radius: 8px;
+  width: auto;
+  height: 100%;
+  box-shadow: var(--pf-jcbs-boxshadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: var(--pf-jcbs-secondary);
+  transition: ease-in-out;
 }
 
 .divProjectCard:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .divProjectCard > h4 {
-    color: var(--pf-jcbs-dark);
-    font-size: 1.3rem;
-    font-style: italic;
-    margin: 10px 0;
+  color: var(--pf-jcbs-dark);
+  font-size: 1.3rem;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.divProjectImg {
+  width: 130px;
+  height: 130px;
+  border-radius: 8px;
 }
 
 .divProjectImg > img {
-    width: auto;
-    height: 130px;
-    border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 .projectTechs > ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    padding: 5px;
-    margin: 10px 0 5px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  margin: 10px 0 5px 0;
 }
 
 .techDiv > img {
-    width: auto;
-    height: 20px;
+  width: auto;
+  height: 20px;
 }
 
 .projectLinks {
-    display: flex;
-    align-items: center;
-    justify-content:flex-end;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-left: 150px;
 }
 
 .projectLinks > a {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .projectLinks > a > img {
-    width: auto;
-    height: 25px; 
+  width: auto;
+  height: 25px;
 }

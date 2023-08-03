@@ -19,6 +19,7 @@ header ul {
 
 a {
     color: var(--pf-jcbs-tertiary);
+    font-weight: 600;
 }
 
 a:hover {
