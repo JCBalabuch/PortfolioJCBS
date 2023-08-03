@@ -62,51 +62,7 @@ export const TECHS = {
     Vercel: "./Techs/VercelLogo.png",
     Node: "./Techs/NodeLogo.png",
     React: "./Techs/ReactLogo.png"
-  }
-
-// export const TECHS = [
-//     {
-//         techName: "Terminal",
-//         techLogo: "./Techs/TerminalLogo.png"
-//     },
-//     {
-//         techName: "VSC",
-//         techLogo: "./Techs/VSCLogo.png"
-//     },
-//     {
-//         techName: "HTML5",
-//         techLogo: "./Techs/HTML5Logo.png"
-//     },
-//     {
-//         techName: "CSS",
-//         techLogo: "./Techs/CSS3Logo.png"
-//     },
-//     {
-//         techName: "Javascript",
-//         techLogo: "JavascriptLogo.png"
-//     },
-//     {
-//         techName: "Github",
-//         techLogo: "GithubLogo.png"
-//     },
-//     {
-//         techName: "Netlify",
-//         techLogo: "./Techs/NetlifyLogo.png"
-//     }, 
-//     {
-//         techName: "Vercel",
-//         techLogo: "./Techs/VercelLogo.png"
-//     }, 
-//     {
-//         techName: "Node",
-//         techLogo: "./Techs/NodeLogo.png"
-//     }, 
-//     {
-//         techName: "React",
-//         techLogo: "./Techs/ReactLogo.png"
-//     }, 
-
-// ]
+  };
 
 export const aboutMeText = `I am a professional with 25 years of experience in the management and administrative area, who has decided to challenge herself to a career change towards Full Stack Developer.<br>
   <br>
@@ -147,14 +103,3 @@ export const aboutCardsData = [
       "Communicative, Knowmad, Analytical, Strategic, Proactive, Leader, Empathic, Teams, Adaptable, Resilient, Respectful",
   },
 ];
-
-export const myPurpose = "To make the world a better place for everyone";
-
-export const myValues =
-  "Spirituality, Love, Family, Responsibility, Honesty, Commitment, Respect, Equity, Trust, Solidarity, Excellence, Learn, Teach, Resilience";
-
-export const myHardskills =
-  "Terminal, VSC, HTML5, CCS3, JavaScript, Git, React, TypeScript, Mongo";
-
-export const mySoftskills =
-  "Communicative, Knowmad, Analytical, Strategic, Proactive, Leader, Empathic, Teams, Adaptable, Resilient, Respectful";

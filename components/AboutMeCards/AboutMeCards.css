@@ -3,10 +3,6 @@
     margin: 20px;
 }
 
-/* .aboutMeCards > .cards * {
-    pointer-events: none;
-} */
-
 .cards {
     margin: 20px;
 }
@@ -29,4 +25,5 @@
     background-color: var(--pf-jcbs-secondary);
     border-radius: 20px;
     box-shadow: var(--pf-jcbs-boxshadow);
+    cursor: pointer;
 }

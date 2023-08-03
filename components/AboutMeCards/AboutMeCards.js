@@ -1,7 +1,4 @@
-import { aboutCardsData } from "../../Data/Data";
-import { handleOpenModal, modal } from "../AboutModal/AboutModal";
-// import { addAboutMeCardlisteners } from "../AboutModal/AboutModal";
-// import { addAboutMeCardlisteners } from "../AboutModal/AboutModal";
+import { handleOpenModal } from "../AboutModal/AboutModal";
 import "./AboutMeCards.css";
 
 export const aboutCards = (cards) => {
@@ -18,7 +15,7 @@ export const aboutCards = (cards) => {
     const divCard = document.createElement("div");
     divCard.classList.add("card");
     divCard.id = card.aboutCardId;
-    divCard.addEventListener("click", handleOpenModal);
+    divCard.addEventListener("click", ()=> {handleOpenModal(card)});
 
     console.log(divCard.id)
 
@@ -40,8 +37,6 @@ export const aboutCards = (cards) => {
   });
 
   galleryCards.appendChild(ulCards);
-
-  modal(cards); //SI DEBE FUNCIONAR ACÁ MISMO
 
   return galleryCards;
 
