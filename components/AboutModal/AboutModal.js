@@ -17,7 +17,7 @@ export const modal = (modaldata) => {
     modalTitle.textContent = modaldata.aboutCardName;
   
     const modalClose = document.createElement("button");
-    modalClose.textContent = "Close Modal";
+    modalClose.textContent = "Close";
     modalClose.id = "modalClose";
     modalClose.addEventListener("click", handleCloseModal);
   
