@@ -13,7 +13,7 @@ const Footer = () => {
     lnkIn.href = "https://www.linkedin.com/in/jenifferbalabuch/";
     lnkIn.target = "blank";
     const lnkInImg = document.createElement("img");
-    lnkInImg.src = "./public/LinkedInLogo.png";
+    lnkInImg.src = "/LinkedInLogo.png";
     lnkInImg.alt = "LinkedIn Logo";
     lnkIn.appendChild(lnkInImg);
 
@@ -21,7 +21,7 @@ const Footer = () => {
     gitHub.href = "https://github.com/JCBalabuch";
     gitHub.target = "blank";
     const gitHubImg = document.createElement("img");
-    gitHubImg.src = "./public/GitHubLogo.png";
+    gitHubImg.src = "/GitHubLogo.png";
     gitHubImg.alt = "Github Logo";
     gitHub.appendChild(gitHubImg);
 
@@ -29,7 +29,7 @@ const Footer = () => {
     paragraph.textContent = "Created by Jeniffer Balabuch";
 
     const jcbs = document.createElement("img");
-    jcbs.src = "./public/LogoJCBS.png";
+    jcbs.src = "/LogoJCBS.png";
     jcbs.alt = "Personal Logo";
 
     const rights = document.createElement("p");

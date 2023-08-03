@@ -3,7 +3,7 @@ import "./Header.css";
 const templateHeader = () => {
     return `
     <div>
-        <img src="./public/LogoJCBS.png"/>
+        <img src="/LogoJCBS.png"/>
     </div>
     <nav>
         <ul>
