@@ -5,18 +5,15 @@
   justify-content: center;
   width: 100vw;
   height: 50svh;
-  /* border: 2px solid red; */
 }
 
 .imgHome {
-  /* height: 100%; */
   max-width: 35%;
   min-width: 300px;
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid green; */
 }
 
 .imgHome > img {
@@ -28,13 +25,11 @@
 
 .presentationHome {
   min-width: 60%;
-  /* height: 50svh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 100px;
-  /* border: 2px solid blue; */
 }
 
 .greetingsHome {
@@ -44,7 +39,6 @@
   align-items: left;
   flex-direction: column;
   gap: 15px;
-  /* border: 2px solid purple; */
   padding: 0 0 0 20px;
   color: var(--pf-jcbs-tertiary);
 }
@@ -65,7 +59,6 @@
 }
 
 .brandJCBS {
-  /* font-size: calc(1em + 1vw); */
   font-size: 6vw;
   font-family: var(--pf-jcbs-brand);
   color: var(--pf-jcbs-quaternary);
@@ -79,7 +72,6 @@
   justify-content: end;
   padding: 20px 50px 10px 0;
   justify-content: right;
-  /* border: 2px solid orange; */
 }
 
 .blockquote > h3 {

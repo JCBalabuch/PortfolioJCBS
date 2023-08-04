@@ -43,12 +43,9 @@ export const handleOpenModal = (card) => {
 
 
 export const handleCloseModal = () => {
-  const closeModal = document.querySelector("#modalClose");
-  closeModal.addEventListener("click", () => {
-    const aboutModal = document.querySelector("#aboutModal");
+  const closeModal = document.querySelector("#aboutModal");
     aboutModal.innerHTML = "";
     aboutModal.style.display = "none"
-  });
 };
 
 

@@ -2,6 +2,8 @@ import Home from "/Pages/Home/Home";
 import Projects from "/Pages/Projects/Projects";
 import About from "/Pages/About/About";
 import NotFound from "/Pages/NotFound/NotFound";
+import { aboutCards } from "../components/AboutMeCards/AboutMeCards";
+import { aboutCardsData } from "../Data/Data";
 
 const routes = [
   {
@@ -19,14 +21,19 @@ const routes = [
 ];
 
 export const router = () => {
-	const path = window.location.pathname;
+  const path = window.location.pathname;
 
-	const {component} = routes.find((route) => route.path === path) || {};
-	if (component) {
-		document.querySelector("main").innerHTML = component();
-	} else {
-		document.querySelector("main").innerHTML = NotFound();
-	}
+  const { component } = routes.find((route) => route.path === path) || {};
+  if (component) {
+    document.querySelector("main").innerHTML = component();
+    if (path === "/about") {
+      document
+        .querySelector("#aboutMeCards")
+        .appendChild(aboutCards(aboutCardsData));
+    }
+  } else {
+    document.querySelector("main").innerHTML = NotFound();
+  }
 };
 
 window.addEventListener("popstate", router);
@@ -34,14 +41,13 @@ window.addEventListener("popstate", router);
 document.addEventListener("DOMContentLoaded", router);
 
 export const addListeners = () => {
-	const navLinks = document.querySelectorAll("nav a");
-	navLinks.forEach((link) => {
-		link.addEventListener("click", (ev) => {
-			ev.preventDefault();
-			const href = link.getAttribute("href");
-			history.pushState(null, null, href);
-			router();
-		});
-	});
+  const navLinks = document.querySelectorAll("nav a");
+  navLinks.forEach((link) => {
+    link.addEventListener("click", (ev) => {
+      ev.preventDefault();
+      const href = link.getAttribute("href");
+      history.pushState(null, null, href);
+      router();
+    });
+  });
 };
-

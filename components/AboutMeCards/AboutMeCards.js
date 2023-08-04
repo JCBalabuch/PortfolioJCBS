@@ -1,5 +1,5 @@
-import { handleOpenModal } from "../AboutModal/AboutModal";
 import "./AboutMeCards.css";
+import { handleOpenModal } from "../AboutModal/AboutModal";
 
 export const aboutCards = (cards) => {
 
@@ -16,8 +16,6 @@ export const aboutCards = (cards) => {
     divCard.classList.add("card");
     divCard.id = card.aboutCardId;
     divCard.addEventListener("click", ()=> {handleOpenModal(card)});
-
-    console.log(divCard.id)
 
     const cardImg = document.createElement("div");
     cardImg.classList.add("cardImg");

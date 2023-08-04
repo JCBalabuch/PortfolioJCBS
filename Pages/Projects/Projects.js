@@ -1,5 +1,5 @@
-import { projectsGallery } from "../../components/ProjectsGallery/ProjectsGallery";
 import "./Projects.css";
+import { projectsGallery } from "../../components/ProjectsGallery/ProjectsGallery";
 
 const projectsTemplate = () => {
   return `
