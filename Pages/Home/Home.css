@@ -3,13 +3,13 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 100vw;
-  height: 50svh;
+  width: 100%;
+  height: 100%;
 }
 
 .imgHome {
   max-width: 35%;
-  min-width: 300px;
+  min-width: 200px;
   width: auto;
   display: flex;
   justify-content: center;

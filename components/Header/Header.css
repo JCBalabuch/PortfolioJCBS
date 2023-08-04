@@ -1,5 +1,5 @@
 header {
-	height: 13svh;
+	height: 15svh;
 	display: flex;
     flex-direction: column;
 	align-items: center;
@@ -7,13 +7,20 @@ header {
     border-bottom: 1px solid var(--pf-jcbs-tertiary);
 }
 
+header > div {
+    height: 50%;
+    width: auto;
+}
+
 header > div > img {
-    height: 80px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 } 
 
 header ul {
 	display: flex;
-	gap: 2rem;
+	gap: 25px;
 	list-style-type: none;
 }
 
