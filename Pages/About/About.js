@@ -14,10 +14,9 @@ const aboutTemplate = () => {
 };
 
 const About = () => {
-
   return `
   ${aboutTemplate()}
-  `
+  `;
 };
 
 export default About;

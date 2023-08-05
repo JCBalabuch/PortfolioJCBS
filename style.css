@@ -22,7 +22,7 @@
   text-decoration: none;
   list-style-type: none;
   font-family: "Great Vibes", cursive;
-  font-family: 'Cormorant Garamond', serif;  
+  font-family: "Cormorant Garamond", serif;
   position: relative;
 }
 
@@ -53,4 +53,4 @@ main > * {
   100% {
     opacity: 1;
   }
-};
+}

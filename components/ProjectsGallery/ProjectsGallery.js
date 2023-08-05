@@ -7,7 +7,7 @@ const projectsCards = (projects) => {
   projectsGallery.classList = "projectsGallery";
 
   const ulProjectCards = document.createElement("ul");
-  ulProjectCards.classList.add("ulProjectCards")
+  ulProjectCards.classList.add("ulProjectCards");
 
   projects.forEach((project) => {
     const liProjectCard = document.createElement("li");

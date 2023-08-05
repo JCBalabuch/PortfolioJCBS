@@ -62,10 +62,10 @@
 
 @media screen and (max-width: 450px) {
   .aboutModal {
-      display: flex;
-      flex-direction: column;
-      max-height: 60%;
-      display: none;
+    display: flex;
+    flex-direction: column;
+    max-height: 60%;
+    display: none;
   }
 
   .aboutModalContent {
