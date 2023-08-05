@@ -45,6 +45,10 @@ main > * {
   animation: fadeIn 1s;
 }
 
+html > .translated-ltr {
+  font-family: "Great Vibes", cursive;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

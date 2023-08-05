@@ -82,6 +82,7 @@
   justify-content: flex-end;
   gap: 10px;
   margin-left: 150px;
+  height: 40px;
 }
 
 .projectLinks > a {
