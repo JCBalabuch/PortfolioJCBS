@@ -8,14 +8,14 @@ header {
 }
 
 header > div {
-    height: 50%;
+    height: 65%;
     width: auto;
 }
 
 header > div > img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 } 
 
 header ul {

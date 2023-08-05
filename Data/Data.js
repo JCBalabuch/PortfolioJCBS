@@ -37,7 +37,7 @@ export const PROJECTS = [
   },
   {
     projectName: "Closet Store",
-    projectImg: "./ProjectsPages/LogoStore.png",
+    projectImg: "./ProjectsPages/LogoStore.webp",
     projectTechs: ["Terminal", "VSC", "HTML5", "CSS", "Javascript", "Github", "Netlify"],
     projectURL: "https://closetstorejcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/myStoreJCBS",
