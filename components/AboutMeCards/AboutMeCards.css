@@ -27,3 +27,23 @@
   box-shadow: var(--pf-jcbs-boxshadow);
   cursor: pointer;
 }
+
+@media screen and (max-width: 450px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+    min-width: 200px;
+  }
+
+  .cardImg {
+    height: 80px;
+    width: auto;
+  }
+
+  .cardImg > Img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
