@@ -89,6 +89,23 @@ export const PROJECTS = [
     projectURL: "https://titivillusbookstorejcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/Titivillus-BookStore",
   },
+  {
+    projectName: "SkullStore",
+    projectImg: "./ProjectsPages/SkullStoreLogo.png",
+    projectTechs: [
+      "Terminal",
+      "VSC",
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "React",
+      "SC",
+      "Github",
+      "Netlify",
+    ],
+    projectURL: "https://skullstorejcbs.netlify.app/",
+    projectGithub: "https://github.com/JCBalabuch/SkullStore",
+  },
 ];
 
 export const TECHS = {
@@ -102,6 +119,7 @@ export const TECHS = {
   Vercel: "./Techs/VercelLogo.png",
   Node: "./Techs/NodeLogo.png",
   React: "./Techs/ReactLogo.png",
+  SC: "./Techs/SCLogo.png",
 };
 
 export const aboutMeText = `I am a professional with 25 years of experience in the management and administrative area, who has decided to challenge herself to a career change towards Full Stack Developer.<br>
