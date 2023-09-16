@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     projectName: "Hecho a mano by Nohe",
     projectImg: "./ProjectsPages/LogoHechoAManoByNohe.png",
-    projectTechs: ["Terminal", "VSC", "HTML5", "CSS", "Github", "Vercel"],
+    projectTechs: ["HTML5", "CSS", "Github", "Vercel"],
     projectURL:
       "https://p1-hecho-a-mano-by-nohe-jcbs-avkku1o0o-jcbalabuch.vercel.app/",
     projectGithub: "https://github.com/JCBalabuch/p1-HechoAManoByNohe-JCBS",
@@ -10,7 +10,7 @@ export const PROJECTS = [
   {
     projectName: "Inspirest",
     projectImg: "./ProjectsPages/Inpirest_Logo.png",
-    projectTechs: ["Terminal", "VSC", "HTML5", "CSS", "Github", "Netlify"],
+    projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
     projectURL: "https://inspirestjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/Inspirest",
   },
@@ -18,8 +18,6 @@ export const PROJECTS = [
     projectName: "Age Calculator",
     projectImg: "./ProjectsPages/AgeCalculator.png",
     projectTechs: [
-      "Terminal",
-      "VSC",
       "HTML5",
       "CSS",
       "Javascript",
@@ -33,8 +31,6 @@ export const PROJECTS = [
     projectName: "MateBásica",
     projectImg: "./ProjectsPages/MatesLogo.png",
     projectTechs: [
-      "Terminal",
-      "VSC",
       "HTML5",
       "CSS",
       "Javascript",
@@ -48,8 +44,6 @@ export const PROJECTS = [
     projectName: "ColorFlipper",
     projectImg: "./ProjectsPages/ColorFlipperLogo.png",
     projectTechs: [
-      "Terminal",
-      "VSC",
       "HTML5",
       "CSS",
       "Javascript",
@@ -63,8 +57,6 @@ export const PROJECTS = [
     projectName: "Closet Store",
     projectImg: "./ProjectsPages/LogoStore.webp",
     projectTechs: [
-      "Terminal",
-      "VSC",
       "HTML5",
       "CSS",
       "Javascript",
@@ -78,8 +70,6 @@ export const PROJECTS = [
     projectName: "Titivillus BookStore",
     projectImg: "./ProjectsPages/TitivillusBSLogo.jpg",
     projectTechs: [
-      "Terminal",
-      "VSC",
       "HTML5",
       "CSS",
       "Javascript",
@@ -90,11 +80,22 @@ export const PROJECTS = [
     projectGithub: "https://github.com/JCBalabuch/Titivillus-BookStore",
   },
   {
+    projectName: "Tiny Piano",
+    projectImg: "./ProjectsPages/TinyPianoLogo.png",
+    projectTechs: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Github",
+      "Netlify",
+    ],
+    projectURL: "https://tinypianojcbs.netlify.app/",
+    projectGithub: "https://github.com/JCBalabuch/TinyPiano",
+  },
+  {
     projectName: "SkullStore",
     projectImg: "./ProjectsPages/SkullStoreLogo.png",
     projectTechs: [
-      "Terminal",
-      "VSC",
       "HTML5",
       "CSS",
       "Javascript",
@@ -105,6 +106,62 @@ export const PROJECTS = [
     ],
     projectURL: "https://skullstorejcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/SkullStore",
+  },
+  {
+    projectName: "Rick & Morty",
+    projectImg: "./ProjectsPages/Rick_and_Morty_Portal.webp",
+    projectTechs: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "React",
+      "Github",
+      "Netlify",
+    ],
+    projectURL: "https://rickmortyjcbs.netlify.app/",
+    projectGithub: "https://github.com/JCBalabuch/RickMortyApp",
+  },
+  {
+    projectName: "API NASA",
+    projectImg: "./ProjectsPages/underConstruction.png",
+    projectTechs: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "React",
+      "Github",
+      "Netlify",
+    ],
+    projectURL: "#",
+    projectGithub: "#",
+  },
+  {
+    projectName: "Weather Time",
+    projectImg: "./ProjectsPages/underConstruction.png",
+    projectTechs: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "React",
+      "Github",
+      "Netlify",
+    ],
+    projectURL: "#",
+    projectGithub: "#",
+  },
+  {
+    projectName: "Games",
+    projectImg: "./ProjectsPages/underConstruction.png",
+    projectTechs: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "React",
+      "Github",
+      "Netlify",
+    ],
+    projectURL: "#",
+    projectGithub: "#",
   },
 ];
 
@@ -144,7 +201,7 @@ export const aboutCardsData = [
     aboutCardImg: "JCBSValues.png",
     aboutCardId: "myValues",
     aboutCardText:
-      "Spirituality, Love, Family, Responsibility, Honesty, Commitment, Respect, Equity, Trust, Solidarity, Excellence, Learn, Teach, Resilience",
+      "Spirituality, Love, Family, Responsibility, Honesty, Commitment, Respect, Equity, Trust, Solidarity, Excellence, Learn, Teach, Resilietiempo meteorológiconce",
   },
   {
     aboutCardName: "My Hardskills",
@@ -159,5 +216,12 @@ export const aboutCardsData = [
     aboutCardId: "mySoftskills",
     aboutCardText:
       "Communicative, Knowmad, Analytical, Strategic, Proactive, Leader, Empathic, Teams, Adaptable, Resilient, Respectful",
+  },
+  {
+    aboutCardName: "My Learning Place",
+    aboutCardImg: "JCBSLearningPlace.png",
+    aboutCardId: "myLearningPlace",
+    aboutCardText:
+      "ThePower Business School - Rock{theCode}",
   },
 ];

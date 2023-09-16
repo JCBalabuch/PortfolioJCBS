@@ -11,13 +11,13 @@
   box-shadow: var(--pf-jcbs-boxshadow);
   border-radius: 20px;
   display: none;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .aboutModalImg {
-  width: 250px;
-  height: 300px;
+  width: 30%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,6 +29,8 @@
 }
 
 .aboutModalContent {
+  width: 70%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
