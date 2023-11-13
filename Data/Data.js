@@ -143,7 +143,7 @@ export const PROJECTS = [
       "Github",
       "Netlify",
     ],
-    projectURL: "https://xxxetlify.app/",
+    projectURL: "https://estabiennoestarbienjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/xxx",
   },
   {
