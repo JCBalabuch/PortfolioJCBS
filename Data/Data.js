@@ -18,14 +18,14 @@ export const PROJECTS = [
     projectName: "God of War",
     projectImg: "./ProjectsPages/GOWRLogo.png",
     projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
-    projectURL: "https://xxx.netlify.app/",
+    projectURL: "https://gowr-jcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/xxxx",
   },
   {
     projectName: "Mini Cooper",
     projectImg: "./ProjectsPages/MiniLogo.jpg",
     projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
-    projectURL: "https://xxx.netlify.app/",
+    projectURL: "https://minicooperlp-jcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/xxxx",
   },
   {
