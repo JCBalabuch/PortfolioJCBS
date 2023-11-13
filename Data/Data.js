@@ -15,6 +15,20 @@ export const PROJECTS = [
     projectGithub: "https://github.com/JCBalabuch/Inspirest",
   },
   {
+    projectName: "God of War",
+    projectImg: "./ProjectsPages/GOWRLogo.png",
+    projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
+    projectURL: "https://xxx.netlify.app/",
+    projectGithub: "https://github.com/JCBalabuch/xxxx",
+  },
+  {
+    projectName: "Mini Cooper",
+    projectImg: "./ProjectsPages/MiniLogo.jpg",
+    projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
+    projectURL: "https://xxx.netlify.app/",
+    projectGithub: "https://github.com/JCBalabuch/xxxx",
+  },
+  {
     projectName: "Age Calculator",
     projectImg: "./ProjectsPages/AgeCalculator.png",
     projectTechs: [
@@ -98,7 +112,6 @@ export const PROJECTS = [
     projectTechs: [
       "HTML5",
       "CSS",
-      "Javascript",
       "React",
       "SC",
       "Github",
@@ -113,7 +126,6 @@ export const PROJECTS = [
     projectTechs: [
       "HTML5",
       "CSS",
-      "Javascript",
       "React",
       "Github",
       "Netlify",
@@ -122,12 +134,24 @@ export const PROJECTS = [
     projectGithub: "https://github.com/JCBalabuch/RickMortyApp",
   },
   {
+    projectName: "Está bien no estar bien",
+    projectImg: "./ProjectsPages/EstaBienNoEstarBien.png",
+    projectTechs: [
+      "HTML5",
+      "CSS",
+      "React",
+      "Github",
+      "Netlify",
+    ],
+    projectURL: "https://xxxetlify.app/",
+    projectGithub: "https://github.com/JCBalabuch/xxx",
+  },
+  {
     projectName: "API NASA",
     projectImg: "./ProjectsPages/underConstruction.png",
     projectTechs: [
       "HTML5",
       "CSS",
-      "Javascript",
       "React",
       "Github",
       "Netlify",
@@ -141,7 +165,6 @@ export const PROJECTS = [
     projectTechs: [
       "HTML5",
       "CSS",
-      "Javascript",
       "React",
       "Github",
       "Netlify",
@@ -155,7 +178,6 @@ export const PROJECTS = [
     projectTechs: [
       "HTML5",
       "CSS",
-      "Javascript",
       "React",
       "Github",
       "Netlify",
