@@ -3,7 +3,9 @@ import "./Header.css";
 const templateHeader = () => {
   return `
     <div>
-        <img src="/LogoJCBS.png"/ alt="Logo Jeniffer Balabuch">
+        <a href="/">
+            <img src="/LogoJCBS.png"/ alt="Logo Jeniffer Balabuch">
+        </a>
     </div>
     <nav>
         <ul>
