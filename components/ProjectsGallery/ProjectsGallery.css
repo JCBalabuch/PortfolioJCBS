@@ -22,7 +22,7 @@
   gap: 50px;
 }
 
-.divProjectCard {
+.frontProjectCard {
   border-radius: 8px;
   width: auto;
   height: 100%;
@@ -37,11 +37,11 @@
   transition: ease-in-out;
 }
 
-.divProjectCard:hover {
+.frontProjectCard:hover {
   transform: scale(1.05);
 }
 
-.divProjectCard > h4 {
+.frontProjectCard > h4 {
   color: var(--pf-jcbs-dark);
   font-size: 1.3rem;
   font-style: italic;

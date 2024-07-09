@@ -12,8 +12,8 @@ const projectsCards = (projects) => {
   projects.forEach((project) => {
     const liProjectCard = document.createElement("li");
 
-    const divProjectCard = document.createElement("div");
-    divProjectCard.classList.add("divProjectCard");
+    const frontProjectCard = document.createElement("div");
+    frontProjectCard.classList.add("frontProjectCard");
 
     const projectCardTitle = document.createElement("h4");
     projectCardTitle.textContent = project.projectName;
@@ -71,12 +71,12 @@ const projectsCards = (projects) => {
     projectLinks.appendChild(githubLink);
 
     divProjectImg.appendChild(imgProject);
-    divProjectCard.appendChild(projectCardTitle);
-    divProjectCard.appendChild(divProjectImg);
-    divProjectCard.appendChild(projectTechs);
-    divProjectCard.appendChild(projectLinks);
+    frontProjectCard.appendChild(projectCardTitle);
+    frontProjectCard.appendChild(divProjectImg);
+    frontProjectCard.appendChild(projectTechs);
+    frontProjectCard.appendChild(projectLinks);
 
-    liProjectCard.appendChild(divProjectCard);
+    liProjectCard.appendChild(frontProjectCard);
     ulProjectCards.appendChild(liProjectCard);
   });
 
