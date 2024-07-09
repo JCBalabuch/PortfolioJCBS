@@ -264,14 +264,14 @@ export const aboutCardsData = [
     aboutCardImg: "JCBSValues.png",
     aboutCardId: "myValues",
     aboutCardText:
-      "Spirituality, Love, Family, Responsibility, Honesty, Commitment, Respect, Equity, Trust, Solidarity, Excellence, Learn, Teach, Resilietiempo meteorológiconce",
+      "Spirituality, Love, Family, Responsibility, Honesty, Commitment, Respect, Equity, Trust, Solidarity, Excellence, Learn, Teach, Resilience",
   },
   {
     aboutCardName: "My Hardskills",
     aboutCardImg: "JCBSHardskills.png",
     aboutCardId: "myHardskills",
     aboutCardText:
-      "Terminal, VSC, HTML5, CCS3, JavaScript, Git, React, TypeScript, Mongo",
+      "Terminal, VSC, HTML5, CCS3, JavaScript, Git, Github, React, TypeScript, Angular, Astro, Mongo",
   },
   {
     aboutCardName: "My Softskills",
@@ -281,10 +281,10 @@ export const aboutCardsData = [
       "Communicative, Knowmad, Analytical, Strategic, Proactive, Leader, Empathic, Teams, Adaptable, Resilient, Respectful",
   },
   {
-    aboutCardName: "My Learning Place",
+    aboutCardName: "My Bootcamp",
     aboutCardImg: "JCBSLearningPlace.png",
     aboutCardId: "myLearningPlace",
     aboutCardText:
-      "ThePower Business School - Rock{theCode}",
+      "ThePower - Rock{theCode}",
   },
 ];

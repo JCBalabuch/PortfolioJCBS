@@ -36,14 +36,15 @@ export const modal = (modaldata) => {
 
 export const handleOpenModal = (card) => {
   const modalElement = document.querySelector("#aboutModal");
+  modalElement.textContent = "";
   modalElement.style.display = "flex";
   modal(card);
 };
 
 export const handleCloseModal = () => {
   const closeModal = document.querySelector("#aboutModal");
-  aboutModal.innerHTML = "";
-  aboutModal.style.display = "none";
+  closeModal.innerHTML = "";
+  closeModal.style.display = "none";
 };
 
 export const aboutModalTemplate = () => {

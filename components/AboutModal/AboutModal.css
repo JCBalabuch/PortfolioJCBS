@@ -1,9 +1,8 @@
 .aboutModal {
   position: fixed;
   inset: 0;
-  max-width: 80%;
-  width: 100%;
-  max-height: 45%;
+  width: 45%;
+  height: 45%;
   margin: 0 auto;
   z-index: 1;
   top: 35%;
@@ -11,12 +10,12 @@
   box-shadow: var(--pf-jcbs-boxshadow);
   border-radius: 20px;
   display: none;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .aboutModalImg {
-  width: 30%;
+  width: 15%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -30,7 +29,7 @@
 
 .aboutModalContent {
   width: 70%;
-  height: 60%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,6 +42,7 @@
   font-family: var(--pf-jcbs-brand);
   font-size: 3em;
   font-weight: 900;
+  text-align: center;
 }
 
 .aboutModalContent > button {
@@ -52,7 +52,7 @@
   border-radius: 5px;
   color: var(--pf-jcbs-quaternary);
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .aboutModalContent > p {
@@ -66,8 +66,10 @@
   .aboutModal {
     display: flex;
     flex-direction: column;
-    max-height: 40%;
+    height: 60%;
+    width: 60%;
     display: none;
+    padding: 10px 0;
   }
 
   .aboutModalContent {
@@ -76,8 +78,8 @@
   }
 
   .aboutModalImg {
-    width: 100px;
-    height: 120px;
+    width: 80px;
+    height: auto;
   }
 
   .aboutModalImg > img {
