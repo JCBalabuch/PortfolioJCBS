@@ -14,15 +14,15 @@ footer {
   gap: 10px;
 }
 
-.creator > a > img {
-  width: 25px;
-  height: 25px;
+.creator a img {
+  width: 30px;
+  height: 30px;
 }
 
 .creator > p {
   font-family: var(--pf-jcbs-brand);
   color: var(--pf-jcbs-dark);
-  font-size: 1.8vw;
+  font-size: 1.5rem;
   font-style: italic;
 }
 
@@ -33,6 +33,6 @@ footer {
 
 .rights {
   font-family: var(--pf-jcbs-normal);
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   color: var(--pf-jcbs-dark);
 }

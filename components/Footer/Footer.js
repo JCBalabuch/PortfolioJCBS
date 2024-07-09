@@ -15,7 +15,6 @@ const Footer = () => {
   const lnkInImg = document.createElement("img");
   lnkInImg.src = "/LinkedInLogo.png";
   lnkInImg.alt = "LinkedIn Logo";
-  lnkIn.appendChild(lnkInImg);
 
   const gitHub = document.createElement("a");
   gitHub.href = "https://github.com/JCBalabuch";
@@ -23,27 +22,28 @@ const Footer = () => {
   const gitHubImg = document.createElement("img");
   gitHubImg.src = "/GitHubLogo.png";
   gitHubImg.alt = "Github Logo";
-  gitHub.appendChild(gitHubImg);
-
+  
   const paragraph = document.createElement("p");
   paragraph.textContent = "Created by Jeniffer Balabuch";
-
-  const jcbs = document.createElement("img");
-  jcbs.src = "/LogoJCBS.png";
-  jcbs.alt = "Personal Logo";
-
+  
+  const jcbs = document.createElement("a");
+  jcbs.href = 'mailto:balabuchj@gmail.com'
+  
+  const jcbsLogo = document.createElement("img");
+  jcbsLogo.src = "/FooterLogoJCBS.png";
+  jcbsLogo.alt = "Personal Logo";
+  
   const rights = document.createElement("p");
   rights.textContent = "All rights reserved ®";
   rights.className = "rights";
-
-  creator.appendChild(lnkIn);
-  creator.appendChild(gitHub);
-  creator.appendChild(paragraph);
-  creator.appendChild(jcbs);
+  
+  lnkIn.appendChild(lnkInImg);
+  gitHub.appendChild(gitHubImg);
+  jcbs.appendChild(jcbsLogo)
+  creator.append(lnkIn, gitHub, paragraph, jcbs);
   rightReserved.appendChild(rights);
 
-  footer.appendChild(creator);
-  footer.appendChild(rightReserved);
+  footer.append(creator, rightReserved);
 
   document.body.appendChild(footer);
 };
