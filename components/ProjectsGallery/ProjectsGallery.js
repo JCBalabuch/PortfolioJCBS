@@ -10,11 +10,14 @@ const projectsCards = (projects) => {
   ulProjectCards.classList.add("ulProjectCards");
 
   projects.forEach((project) => {
+
+    // Create card
     const liProjectCard = document.createElement("li");
 
-    const frontProjectCard = document.createElement("div");
-    frontProjectCard.classList.add("frontProjectCard");
+    const divProjectCard = document.createElement("div");
+    divProjectCard.classList.add("divProjectCard");
 
+    // Create Card content
     const projectCardTitle = document.createElement("h4");
     projectCardTitle.textContent = project.projectName;
 
@@ -24,6 +27,7 @@ const projectsCards = (projects) => {
     imgProject.src = project.projectImg;
     imgProject.alt = project.projectImg;
 
+    // Create techs container
     const projectTechs = document.createElement("div");
     projectTechs.classList.add("projectTechs");
 
@@ -46,6 +50,7 @@ const projectsCards = (projects) => {
       projectTechs.appendChild(ulTechs);
     });
 
+    // Create project links
     const projectLinks = document.createElement("div");
     projectLinks.classList.add("projectLinks");
 
@@ -67,22 +72,51 @@ const projectsCards = (projects) => {
     linkGithub.alt = "Github Link";
     githubLink.appendChild(linkGithub);
 
-    projectLinks.appendChild(deploymentLink);
-    projectLinks.appendChild(githubLink);
+    projectLinks.append(deploymentLink, githubLink);
 
+    // Create arrow to show description
+    const showDescription = document.createElement("img");
+    showDescription.src = "arrow.png"
+    showDescription.alt = "Arrow Icon"
+    showDescription.id = "showDescription";
+    showDescription.addEventListener("click", () => console.log('Estoy aquí'))
+
+    // Create description project
+    const descriptionProjectContent = document.createElement("div");
+    descriptionProjectContent.className = "descriptionContent";
+    descriptionProjectContent.style.display = "none";
+
+    const descriptionProject = document.createElement("p");
+    descriptionProject.textContent = project.description;
+
+    // Insert Elements in card
     divProjectImg.appendChild(imgProject);
-    frontProjectCard.appendChild(projectCardTitle);
-    frontProjectCard.appendChild(divProjectImg);
-    frontProjectCard.appendChild(projectTechs);
-    frontProjectCard.appendChild(projectLinks);
+    descriptionProjectContent.appendChild(descriptionProject);
 
-    liProjectCard.appendChild(frontProjectCard);
+    divProjectCard.append(projectCardTitle, divProjectImg, projectTechs, projectLinks, showDescription, descriptionProjectContent);
+
+    liProjectCard.appendChild(divProjectCard);
     ulProjectCards.appendChild(liProjectCard);
   });
 
   projectsGallery.appendChild(ulProjectCards);
   return projectsGallery;
 };
+
+const showDescriptionProject = (event) => {
+console.log('Estoy dentro de la función');
+
+  const descriptionContent = event.target.nextElementSibling;
+  const arrowIcon = event.target;
+
+  if (descriptionContent.style.display === "none") {
+    descriptionContent.style.display = "block"
+    arrowIcon.style.transform = "rotate(180deg)"
+  } else {
+    descriptionContent.style.display = "none"
+    arrowIcon.style.transform = "rotate(0deg)"
+  }
+}
 
 export const projectsGallery = () => {
   return `

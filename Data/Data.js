@@ -6,6 +6,7 @@ export const PROJECTS = [
     projectURL:
       "https://p1-hecho-a-mano-by-nohe-jcbs-avkku1o0o-jcbalabuch.vercel.app/",
     projectGithub: "https://github.com/JCBalabuch/p1-HechoAManoByNohe-JCBS",
+    description: "",
   },
   {
     projectName: "Inspirest",
@@ -13,6 +14,7 @@ export const PROJECTS = [
     projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
     projectURL: "https://inspirestjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/Inspirest",
+    description: "",
   },
   {
     projectName: "God of War",
@@ -20,6 +22,7 @@ export const PROJECTS = [
     projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
     projectURL: "https://gowr-jcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/GodOfWarRagnarok",
+    description: "",
   },
   {
     projectName: "Mini Cooper",
@@ -27,6 +30,7 @@ export const PROJECTS = [
     projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
     projectURL: "https://minicooperlp-jcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/minicooperlp",
+    description: "",
   },
   {
     projectName: "Age Calculator",
@@ -40,6 +44,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://agecalculatorjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/AgeCalculator",
+    description: "",
   },
   {
     projectName: "MateBásica",
@@ -53,6 +58,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://matebasicajcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/MateBasicaJCBS",
+    description: "",
   },
   {
     projectName: "ColorFlipper",
@@ -66,6 +72,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://colorflipperjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/ColorFlipperJCBS",
+    description: "",
   },
   {
     projectName: "Closet Store",
@@ -79,6 +86,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://closetstorejcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/myStoreJCBS",
+    description: "",
   },
   {
     projectName: "Titivillus BookStore",
@@ -92,6 +100,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://titivillusbookstorejcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/Titivillus-BookStore",
+    description: "",
   },
   {
     projectName: "Tiny Piano",
@@ -105,6 +114,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://tinypianojcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/TinyPiano",
+    description: "",
   },
   {
     projectName: "Maraisa",
@@ -118,6 +128,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://maraisajcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/maraisa",
+    description: "",
   },
   {
     projectName: "SkullStore",
@@ -132,6 +143,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://skullstorejcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/SkullStore",
+    description: "",
   },
   {
     projectName: "Rick & Morty",
@@ -145,6 +157,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://rickmortyjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/RickMortyApp",
+    description: "",
   },
   {
     projectName: "Está bien no estar bien",
@@ -158,6 +171,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://estabiennoestarbienjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/EstaBienNoEstarBien",
+    description: "",
   },
   {
     projectName: "Let Me Out",
@@ -174,6 +188,7 @@ export const PROJECTS = [
     ],
     projectURL: "http://5.250.185.179:3002/",
     projectGithub: "https://github.com/Leyinko/LetMeOut",
+    description: "",
   },
   {
     projectName: "Hackaton",
@@ -190,6 +205,7 @@ export const PROJECTS = [
     ],
     projectURL: "#",
     projectGithub: "#",
+    description: "",
   },
   {
     projectName: "Fintrade",
@@ -203,6 +219,7 @@ export const PROJECTS = [
     ],
     projectURL: "#",
     projectGithub: "https://github.com/JCBalabuch/Fintrade",
+    description: "",
   },
   {
     projectName: "RIU Hotels",
@@ -217,6 +234,7 @@ export const PROJECTS = [
     ],
     projectURL: "#",
     projectGithub: "#",
+    description: "",
   },
 ];
 

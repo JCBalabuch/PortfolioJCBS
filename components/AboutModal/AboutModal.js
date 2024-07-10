@@ -26,12 +26,9 @@ export const modal = (modaldata) => {
 
   aboutModalImg.appendChild(modalImg);
 
-  aboutModalContent.appendChild(modalTitle);
-  aboutModalContent.appendChild(aboutModalText);
-  aboutModalContent.appendChild(modalClose);
+  aboutModalContent.append(modalTitle, aboutModalText, modalClose);
 
-  divModal.appendChild(aboutModalImg);
-  divModal.appendChild(aboutModalContent);
+  divModal.append(aboutModalImg, aboutModalContent);
 };
 
 export const handleOpenModal = (card) => {

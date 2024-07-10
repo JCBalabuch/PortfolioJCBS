@@ -27,8 +27,7 @@ export const aboutCards = (cards) => {
     cardTitle.textContent = card.aboutCardName;
 
     cardImg.appendChild(imgCard);
-    divCard.appendChild(cardImg);
-    divCard.appendChild(cardTitle);
+    divCard.append(cardImg, cardTitle);
 
     liCard.appendChild(divCard);
     ulCards.appendChild(liCard);
