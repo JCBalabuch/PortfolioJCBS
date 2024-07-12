@@ -6,7 +6,7 @@ export const PROJECTS = [
     projectURL:
       "https://p1-hecho-a-mano-by-nohe-jcbs-avkku1o0o-jcbalabuch.vercel.app/",
     projectGithub: "https://github.com/JCBalabuch/p1-HechoAManoByNohe-JCBS",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Inspirest",
@@ -14,7 +14,7 @@ export const PROJECTS = [
     projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
     projectURL: "https://inspirestjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/Inspirest",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "God of War",
@@ -22,7 +22,7 @@ export const PROJECTS = [
     projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
     projectURL: "https://gowr-jcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/GodOfWarRagnarok",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Mini Cooper",
@@ -30,7 +30,7 @@ export const PROJECTS = [
     projectTechs: ["HTML5", "CSS", "Github", "Netlify"],
     projectURL: "https://minicooperlp-jcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/minicooperlp",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Age Calculator",
@@ -44,7 +44,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://agecalculatorjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/AgeCalculator",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "MateBásica",
@@ -58,7 +58,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://matebasicajcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/MateBasicaJCBS",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "ColorFlipper",
@@ -72,7 +72,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://colorflipperjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/ColorFlipperJCBS",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Closet Store",
@@ -86,7 +86,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://closetstorejcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/myStoreJCBS",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Titivillus BookStore",
@@ -100,7 +100,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://titivillusbookstorejcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/Titivillus-BookStore",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Tiny Piano",
@@ -114,7 +114,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://tinypianojcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/TinyPiano",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Maraisa",
@@ -128,7 +128,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://maraisajcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/maraisa",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "SkullStore",
@@ -143,7 +143,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://skullstorejcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/SkullStore",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Rick & Morty",
@@ -157,7 +157,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://rickmortyjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/RickMortyApp",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Está bien no estar bien",
@@ -171,7 +171,7 @@ export const PROJECTS = [
     ],
     projectURL: "https://estabiennoestarbienjcbs.netlify.app/",
     projectGithub: "https://github.com/JCBalabuch/EstaBienNoEstarBien",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Let Me Out",
@@ -188,7 +188,7 @@ export const PROJECTS = [
     ],
     projectURL: "http://5.250.185.179:3002/",
     projectGithub: "https://github.com/Leyinko/LetMeOut",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Hackaton",
@@ -205,7 +205,7 @@ export const PROJECTS = [
     ],
     projectURL: "#",
     projectGithub: "#",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "Fintrade",
@@ -219,7 +219,7 @@ export const PROJECTS = [
     ],
     projectURL: "#",
     projectGithub: "https://github.com/JCBalabuch/Fintrade",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
   {
     projectName: "RIU Hotels",
@@ -234,7 +234,7 @@ export const PROJECTS = [
     ],
     projectURL: "#",
     projectGithub: "#",
-    description: "",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   },
 ];
 
