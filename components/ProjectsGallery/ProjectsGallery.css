@@ -8,53 +8,94 @@
   margin: 30px 0;
   text-align: center;
   font-size: 3rem;
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
 }
 
 /* Project's gallery styles  */
 .projectsGallery {
   width: 100%;
   height: 100%;
+  margin-bottom: 20px;
 }
 
 .ulProjectCards {
-  margin: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
   gap: 50px;
 }
 
-/* Cards styles */
-.divProjectCard {
+.liProjectCard {
+  width: 280px;
+  height: 330px;
   border-radius: 8px;
-  width: auto;
-  height: 100%;
+  position: relative;
+  -webkit-transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background-color: var(--pf-jcbs-secondary);
   box-shadow: var(--pf-jcbs-boxshadow);
+}
+
+.divProjectCard {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 40px;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.contentProjectCard {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateY(-50%) translatez(50px) scale(0.8);
+  transform: translateY(-50%) translatez(50px) scale(0.8);
+  top: 50%;
+  left: 0;
+  -webkit-perspective: inherit;
+  perspective: inherit;
+  line-height: 1.5em;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 20px;
-  background-color: var(--pf-jcbs-secondary);
-  transition: ease-in-out;
 }
 
-/* .divProjectCard:hover {
-  transform: scale(1.05);
-} */
-
-/* Cards elements style */
-.divProjectCard > h4 {
+.contentProjectCard > h4 {
   color: var(--pf-jcbs-dark);
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   font-style: italic;
-  margin: 10px 0;
+  margin-bottom: 10px;
+}
+
+.contentProjectCard > p {
+  color: var(--pf-jcbs-dark);
+  font-size: 1.4rem;
 }
 
 .divProjectImg {
-  width: 130px;
-  height: 130px;
+  width: 180px;
+  height: 180px;
   border-radius: 8px;
 }
 
@@ -66,6 +107,7 @@
 }
 
 .projectTechs > ul {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -75,41 +117,47 @@
   margin: 10px 0 5px 0;
 }
 
-.techDiv > img {
-  width: auto;
-  height: 20px;
+.techDiv {
+  width: 30px;
+  height: 30px;
+}
+
+.techDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .projectLinks {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 10px;
-  margin-left: 150px;
-  height: 40px;
+  margin-top: 105%;
 }
 
 .projectLinks > a {
-  cursor: pointer;
+  width: 28px;
+  height: 28px;
 }
 
 .projectLinks > a > img {
-  width: auto;
-  height: 25px;
-}
-
-#showDescription {
-  width: 20px;
+  width: 100%;
   height: auto;
   cursor: pointer;
 }
 
-.descriptionContent {
-  width: 100%;
-  height: 80px;
-  position: absolute;
-  align-items: flex-end;
-  margin-top: 50%;
+.front {
   z-index: 2;
-  background-color: var(--pf-jcbs-secondary);
+  transform: rotateY(0deg);
+}
+
+.back {
+  z-index: 0;
+  transform: rotateY(180deg);
+}
+
+.liProjectCard:hover {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
