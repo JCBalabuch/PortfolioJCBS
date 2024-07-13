@@ -1,10 +1,10 @@
-import "./Header.css";
+import './Header.css';
 
 const templateHeader = () => {
   return `
     <div>
         <a href="/">
-            <img src="/LogoJCBS.png"/ alt="Logo Jeniffer Balabuch">
+            <img src="/personals/LogoJCBS.png"/ alt="Logo Jeniffer Balabuch">
         </a>
     </div>
     <nav>
@@ -24,7 +24,7 @@ const templateHeader = () => {
 };
 
 const Header = () => {
-  document.querySelector("header").innerHTML = templateHeader();
+  document.querySelector('header').innerHTML = templateHeader();
 };
 
 export default Header;

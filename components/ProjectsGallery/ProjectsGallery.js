@@ -74,7 +74,7 @@ const projectsCards = (projects) => {
     deploymentLink.setAttribute('target', '_blank');
 
     const linkLogo = document.createElement('img');
-    linkLogo.src = 'LinkLogo.png';
+    linkLogo.src = '/logos/LinkLogo.png';
     linkLogo.alt = 'Deployment Link';
     deploymentLink.appendChild(linkLogo);
 
@@ -83,7 +83,7 @@ const projectsCards = (projects) => {
     githubLink.setAttribute('target', '_blank');
 
     const linkGithub = document.createElement('img');
-    linkGithub.src = 'GitHubLogo.png';
+    linkGithub.src = '/logos/GitHubLogo.png';
     linkGithub.alt = 'Github Link';
     githubLink.appendChild(linkGithub);
 

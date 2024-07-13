@@ -1,10 +1,10 @@
-import "./Home.css";
+import './Home.css';
 
 const Home = () => {
   return `
     <div class="homePortfolio">
       <div class="imgHome">
-        <img src="LogoImgsJCBS.png" alt="Logo Home"/>
+        <img src="/personals/LogoImgsJCBS.png" alt="Logo Home"/>
       </div>
       <div class="presentationHome">
           <div class="greetingsHome">
