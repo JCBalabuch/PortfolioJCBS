@@ -1,30 +1,34 @@
+import { HEADERLINKS } from '../../Data/Data';
+import { linkTemplate } from '../Link/Link';
 import './Header.css';
 
-const templateHeader = () => {
-  return `
-    <div>
-        <a href="/">
-            <img src="/personals/LogoJCBS.png"/ alt="Logo Jeniffer Balabuch">
-        </a>
-    </div>
-    <nav>
-        <ul>
-            <li>
-                <a href="/">Home</a>
-            </li>
-            <li>
-                <a href="/projects">Projects</a>
-            </li>
-            <li>
-                <a href="/about">About</a>
-            </li>
-        </ul>
-    </nav>
-    `;
-};
-
 const Header = () => {
-  document.querySelector('header').innerHTML = templateHeader();
+  const header = document.querySelector('header');
+
+  // Create main header's logo
+  const divHeader = document.createElement('div');
+
+  const logoHeaderAnchor = document.createElement('a');
+  logoHeaderAnchor.href = '/';
+
+  const logoHeaderImg = document.createElement('img');
+  logoHeaderImg.src = '/personals/LogoJCBS.png';
+  logoHeaderImg.alt = 'Logo Jeniffer Balabuch';
+
+  logoHeaderAnchor.appendChild(logoHeaderImg);
+  divHeader.appendChild(logoHeaderAnchor);
+
+  // Create Header's Nav
+  const navHeader = document.createElement('nav');
+  const ulHeader = document.createElement('ul');
+
+  HEADERLINKS.forEach((link) => {
+    const li = linkTemplate(link.hRef, link.nameLink);
+    ulHeader.appendChild(li);
+  });
+
+  navHeader.appendChild(ulHeader);
+  header.append(divHeader, navHeader);
 };
 
 export default Header;
