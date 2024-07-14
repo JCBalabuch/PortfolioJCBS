@@ -42,7 +42,7 @@ export const PROJECTS = [
   {
     projectName: 'Hecho a mano by Nohe',
     projectImg: './ProjectsPages/LogoHechoAManoByNohe.png',
-    projectTechs: ['HTML5', 'CSS', 'Github', 'Vercel'],
+    projectTechs: ["'HTML5', 'CSS', 'Github', 'Vercel'"],
     projectURL:
       'https://p1-hecho-a-mano-by-nohe-jcbs-avkku1o0o-jcbalabuch.vercel.app/',
     projectGithub: 'https://github.com/JCBalabuch/p1-HechoAManoByNohe-JCBS',
@@ -327,8 +327,8 @@ export const aboutCardsData = [
     aboutCardImg: '/personals/JCBSValues.png',
     aboutCardId: 'myValues',
     aboutCardText: {
-      en: 'Spirituality, Love, Family, Responsibility, Honesty, Commitment, Respect, Equity, Trust, Solidarity, Excellence, Learn, Teach, Resilience',
-      es: 'Espiritualidad, Amor, Familia, Responsabilidad, Honestidad, Compromiso, Respeto, Equidad, Confianza, Solidaridad, Excelencia, Aprender, Enseñar, Resiliencia',
+      en: 'Spirituality, Love, Family, Responsibility, Honesty, Commitment, Respect, Equity, Trust, Solidarity, Excellence, Learn, Teach, Resilience.',
+      es: 'Espiritualidad, Amor, Familia, Responsabilidad, Honestidad, Compromiso, Respeto, Equidad, Confianza, Solidaridad, Excelencia, Aprender, Enseñar, Resiliencia.',
     },
   },
   {
