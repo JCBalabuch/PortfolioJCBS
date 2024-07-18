@@ -1,3 +1,4 @@
+import { HOME } from '../../Data/Data';
 import './Home.css';
 
 const Home = () => {
@@ -8,16 +9,16 @@ const Home = () => {
       </div>
       <div class="presentationHome">
           <div class="greetingsHome">
-            <h3>Thanks for being here</h3>
-            <h1>I'm <span class="brandJCBS">Jeniffer Balabuch</span></h1>
-            <h4>I'm preparing to become a Full Stack Developer</h4>
-            <h4>Welcome to my portfolio</h4>
+            <h3>${HOME.greet}</h3>
+            <h1>${HOME.pron} <span class="brandJCBS">${HOME.myName}</span></h1>
+            <h4>${HOME.goal}</h4>
+            <h4>${HOME.welcome}</h4>
           </div>
+          <blockquote class="blockquote">
+            <h3>${HOME.phrase}</h3>
+            <p>${HOME.jjbs}</p>
+          </blockquote>
         </div>
-      <blockquote class="blockquote">
-        <h3>I want, I can and I'm not afraid</h3>
-        <p>JJBS</p>
-      </blockquote>
     </div>
     `;
 };

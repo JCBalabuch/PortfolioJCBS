@@ -1,17 +1,21 @@
-import { aboutMeText } from '../../Data/Data';
 import './AboutMe.css';
 
-const lang = 'es';
+export const aboutMeTemplate = (data) => {
+  const aboutMeSection = document.createElement('div');
+  aboutMeSection.id = 'aboutMe';
+  aboutMeSection.className = 'aboutMe';
 
-const aboutMe = lang === 'en' ? aboutMeText.en : aboutMeText.es;
+  const aboutMeTitle = document.createElement('h2');
+  aboutMeTitle.dataset.section = 'about';
+  aboutMeTitle.dataset.value = 'aboutMe';
+  aboutMeTitle.textContent = data.aboutMe;
 
-export const aboutMeTemplate = () => {
-  return `
-        <div id="aboutMe" class="aboutMe">
-            <h2>About me</h2>
-            <p>${aboutMe}</p>
-        </div>
-        `;
+  const aboutMeText = document.createElement('p');
+  aboutMeText.dataset.section = 'about';
+  aboutMeText.dataset.value = 'aboutMeText';
+  aboutMeText.innerHTML = data.aboutMeText;
+
+  aboutMeSection.append(aboutMeTitle, aboutMeText);
+
+  return aboutMeSection;
 };
-
-// console.log(aboutMe);

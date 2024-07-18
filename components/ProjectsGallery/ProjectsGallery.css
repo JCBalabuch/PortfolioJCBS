@@ -82,15 +82,17 @@
 }
 
 .contentProjectCard > h4 {
-  color: var(--pf-jcbs-dark);
-  font-size: 1.8rem;
+  color: var(--pf-jcbs-quaternary);
+  font-size: 1.9rem;
   font-style: italic;
-  margin-bottom: 10px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .contentProjectCard > p {
-  color: var(--pf-jcbs-dark);
+  color: var(--pf-jcbs-quaternary);
   font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .divProjectImg {

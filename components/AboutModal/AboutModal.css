@@ -14,6 +14,19 @@
   align-items: center;
 }
 
+#aboutModal > button {
+  background-color: var(--pf-jcbs-secondary);
+  border: 1px solid var(--pf-jcbs-quaternary);
+  padding: 3px 5px;
+  border-radius: 5px;
+  color: var(--pf-jcbs-quaternary);
+  font-weight: 700;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
 .aboutModalImg {
   width: 15%;
   height: auto;
@@ -43,16 +56,6 @@
   font-size: 3em;
   font-weight: 900;
   text-align: center;
-}
-
-.aboutModalContent > button {
-  background-color: var(--pf-jcbs-secondary);
-  border: 1px solid var(--pf-jcbs-quaternary);
-  padding: 3px 5px;
-  border-radius: 5px;
-  color: var(--pf-jcbs-quaternary);
-  font-weight: 700;
-  margin-top: 20px;
 }
 
 .aboutModalContent > p {

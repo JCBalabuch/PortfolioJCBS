@@ -21,8 +21,6 @@ header > div > a > img {
   object-fit: contain;
 }
 
-
-
 header ul {
   display: flex;
   justify-content: center;
@@ -53,9 +51,30 @@ header ul li a:hover {
   font-size: 20px;
 }
 
+#headers-buttons {
+  width: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  gap: 5px;
+}
+
 @media screen and (max-width: 450px) {
+  header ul {
+    gap: 5px;
+    padding: 0px 5px;
+  }
+
   a:hover {
     font-family: var(--pf-jcbs-normal);
     font-size: 16px;
+  }
+
+  #headers-buttons {
+    top: 0;
   }
 }

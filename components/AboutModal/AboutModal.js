@@ -17,7 +17,7 @@ export const modal = (modaldata) => {
   modalTitle.textContent = modaldata.aboutCardName;
 
   const modalClose = document.createElement('button');
-  modalClose.textContent = 'Close';
+  modalClose.textContent = 'X';
   modalClose.id = 'modalClose';
   modalClose.addEventListener('click', handleCloseModal);
 
@@ -26,9 +26,9 @@ export const modal = (modaldata) => {
 
   aboutModalImg.appendChild(modalImg);
 
-  aboutModalContent.append(modalTitle, aboutModalText, modalClose);
+  aboutModalContent.append(modalTitle, aboutModalText);
 
-  divModal.append(aboutModalImg, aboutModalContent);
+  divModal.append(modalClose, aboutModalImg, aboutModalContent);
 };
 
 export const handleOpenModal = (card) => {

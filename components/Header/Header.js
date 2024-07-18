@@ -27,8 +27,13 @@ const Header = () => {
     ulHeader.appendChild(li);
   });
 
+  //Create Header's buttons: Lang Changer & Theme
+  const headersButtons = document.createElement('div');
+  headersButtons.id = 'headers-buttons';
+
+  // Add sections to Header
   navHeader.appendChild(ulHeader);
-  header.append(divHeader, navHeader);
+  header.append(divHeader, navHeader, headersButtons);
 };
 
 export default Header;

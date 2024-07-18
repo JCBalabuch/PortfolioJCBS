@@ -1,15 +1,15 @@
 :root {
   /* COLOR PALETTE  */
-  --pf-jcbs-primary: rgb(227, 218, 208);
+  --pf-jcbs-primary: #e3dad0;
   --pf-jcbs-secondary: #ddc9be;
   --pf-jcbs-tertiary: #b17152;
-  --pf-jcbs-quaternary: #8a6857;
+  --pf-jcbs-quaternary: #4b372d;
   --pf-jcbs-dark: #344960;
   --pf-jcbs-modal: rgba(227, 218, 208, 0.95);
 
   /* TIPOGRAPHY */
-  --pf-jcbs-brand: "Great Vibes";
-  --pf-jcbs-normal: "Tenor Sans";
+  --pf-jcbs-brand: 'Great Vibes';
+  --pf-jcbs-normal: 'Tenor Sans';
 
   /* BOX-SHADOW */
   --pf-jcbs-boxshadow: 0px 0px 10px var(--pf-jcbs-tertiary);
@@ -21,8 +21,8 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  font-family: "Great Vibes", cursive;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', serif;
   position: relative;
 }
 
@@ -46,7 +46,7 @@ main > * {
 }
 
 html > .translated-ltr {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
 }
 
 @keyframes fadeIn {
