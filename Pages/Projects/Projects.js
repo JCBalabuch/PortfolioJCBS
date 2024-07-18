@@ -1,6 +1,7 @@
-import "./Projects.css";
-import { projectsGallery } from "../../components/ProjectsGallery/ProjectsGallery";
+import './Projects.css';
+import { projectsGallery } from '../../components/ProjectsGallery/ProjectsGallery';
 
+// Projects Template
 const projectsTemplate = () => {
   return `
     <section id="projectsTemplate">

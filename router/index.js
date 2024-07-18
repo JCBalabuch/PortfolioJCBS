@@ -1,51 +1,54 @@
-import Home from "/Pages/Home/Home";
-import Projects from "/Pages/Projects/Projects";
-import About from "/Pages/About/About";
-import NotFound from "/Pages/NotFound/NotFound";
-import { aboutCards } from "../components/AboutMeCards/AboutMeCards";
-import { aboutCardsData } from "../Data/Data";
+import Home from '/Pages/Home/Home';
+import Projects from '/Pages/Projects/Projects';
+import About from '/Pages/About/About';
+import NotFound from '/Pages/NotFound/NotFound';
+import { aboutCards } from '../components/AboutMeCards/AboutMeCards';
+import { aboutCardsData } from '../Data/Data';
 
+// Routes
 const routes = [
   {
-    path: "/",
+    path: '/',
     component: Home,
   },
   {
-    path: "/projects",
+    path: '/projects',
     component: Projects,
   },
   {
-    path: "/about",
+    path: '/about',
     component: About,
   },
 ];
 
+// Router function
 export const router = () => {
   const path = window.location.pathname;
 
   const { component } = routes.find((route) => route.path === path) || {};
   if (component) {
-    document.querySelector("main").innerHTML = component();
-    if (path === "/about") {
+    document.querySelector('main').innerHTML = component();
+    if (path === '/about') {
       document
-        .querySelector("#aboutMeCards")
+        .querySelector('#aboutMeCards')
         .appendChild(aboutCards(aboutCardsData));
     }
   } else {
-    document.querySelector("main").innerHTML = NotFound();
+    document.querySelector('main').innerHTML = NotFound();
   }
 };
 
-window.addEventListener("popstate", router);
+window.addEventListener('popstate', router);
 
-document.addEventListener("DOMContentLoaded", router);
+document.addEventListener('DOMContentLoaded', router);
 
+// Add addEventListeners
 export const addListeners = () => {
-  const navLinks = document.querySelectorAll("nav a");
+  const navLinks = document.querySelectorAll('nav a');
   navLinks.forEach((link) => {
-    link.addEventListener("click", (ev) => {
+    link.addEventListener('click', (ev) => {
       ev.preventDefault();
-      const href = link.getAttribute("href");
+      const href = link.getAttribute('href');
       history.pushState(null, null, href);
       router();
     });

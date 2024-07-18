@@ -1,6 +1,7 @@
 import { HOME } from '../../Data/Data';
 import './Home.css';
 
+// Home Template
 const Home = () => {
   return `
     <div class="homePortfolio">

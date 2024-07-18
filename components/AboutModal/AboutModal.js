@@ -1,8 +1,11 @@
+import { handleCloseModal } from '../../utils/HandleModal';
 import './AboutModal.css';
 
 export const modal = (modaldata) => {
+  // Modal container
   const divModal = document.querySelector('#aboutModal');
 
+  // Modal content img
   const aboutModalImg = document.createElement('div');
   aboutModalImg.classList = 'aboutModalImg';
 
@@ -10,6 +13,7 @@ export const modal = (modaldata) => {
   modalImg.src = modaldata.aboutCardImg;
   modalImg.alt = modaldata.aboutCardName;
 
+  // Modal content
   const aboutModalContent = document.createElement('div');
   aboutModalContent.classList = 'aboutModalContent';
 
@@ -29,19 +33,6 @@ export const modal = (modaldata) => {
   aboutModalContent.append(modalTitle, aboutModalText);
 
   divModal.append(modalClose, aboutModalImg, aboutModalContent);
-};
-
-export const handleOpenModal = (card) => {
-  const modalElement = document.querySelector('#aboutModal');
-  modalElement.textContent = '';
-  modalElement.style.display = 'flex';
-  modal(card);
-};
-
-export const handleCloseModal = () => {
-  const closeModal = document.querySelector('#aboutModal');
-  closeModal.innerHTML = '';
-  closeModal.style.display = 'none';
 };
 
 export const aboutModalTemplate = () => {

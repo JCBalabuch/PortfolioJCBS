@@ -1,5 +1,5 @@
 .aboutMe {
-  margin: 0 50px;
+  margin: 0 var(--margin-xl);
 }
 
 .aboutMe > h2 {
@@ -10,6 +10,6 @@
 
 .aboutMe > p {
   text-align: justify;
-  margin: 10px 0;
+  margin: var(--margin-s) 0;
   font-weight: 600;
 }

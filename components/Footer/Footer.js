@@ -1,11 +1,14 @@
 import './Footer.css';
 
 const Footer = () => {
+  // Footer container
   const footer = document.querySelector('footer');
 
+  // Footer content
   const creator = document.createElement('div');
   creator.className = 'creator';
 
+  // RRSS Links
   const rightReserved = document.createElement('div');
   rightReserved.className = 'rightReserved';
 
@@ -33,6 +36,7 @@ const Footer = () => {
   jcbsLogo.src = '/logos/FooterLogoJCBS.png';
   jcbsLogo.alt = 'Personal Logo';
 
+  // Copyright
   const rights = document.createElement('p');
   rights.textContent = 'All rights reserved ®';
   rights.className = 'rights';

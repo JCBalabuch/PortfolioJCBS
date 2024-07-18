@@ -1,11 +1,13 @@
+import { handleOpenModal } from '../../utils/HandleModal';
 import './AboutMeCards.css';
-import { handleOpenModal } from '../AboutModal/AboutModal';
 
 export const aboutCards = (cards) => {
+  // Gallery Cards container
   const galleryCards = document.createElement('div');
   galleryCards.id = 'cards';
   galleryCards.classList = 'cards';
 
+  // List of About cards
   const ulCards = document.createElement('ul');
 
   cards.forEach((card) => {

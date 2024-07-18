@@ -13,6 +13,26 @@
 
   /* BOX-SHADOW */
   --pf-jcbs-boxshadow: 0px 0px 10px var(--pf-jcbs-tertiary);
+
+  /* GAP */
+  --gap-xs: 5px;
+  --gap-s: 10px;
+  --gap-m: 15px;
+  --gap-l: 30px;
+  --gap-xl: 50px;
+
+  /* MARGIN */
+  --margin-xs: 5px;
+  --margin-s: 10px;
+  --margin-m: 20px;
+  --margin-l: 30px;
+  --margin-xl: 50px;
+
+  /* PADDING */
+  --padding-xs: 3px;
+  --padding-s: 5px;
+  --padding-m: 10px;
+  --padding-l: 20px;
 }
 
 * {

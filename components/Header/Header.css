@@ -1,3 +1,4 @@
+/* Header container */
 header {
   height: 15svh;
   display: flex;
@@ -7,6 +8,7 @@ header {
   border-bottom: 1px solid var(--pf-jcbs-tertiary);
 }
 
+/* Main logo */
 header > div {
   height: 60%;
   width: auto;
@@ -21,15 +23,16 @@ header > div > a > img {
   object-fit: contain;
 }
 
+/* Header nav */
 header ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: var(--gap-l);
   list-style-type: none;
   height: 25px;
   width: 300px;
-  padding: 5px 10px;
+  padding: var(--padding-s) var(--padding-m);
 }
 
 header ul li {
@@ -51,6 +54,8 @@ header ul li a:hover {
   font-size: 20px;
 }
 
+/* Headers buttons */
+
 #headers-buttons {
   width: 50px;
   height: 100px;
@@ -60,13 +65,15 @@ header ul li a:hover {
   align-items: center;
   position: fixed;
   right: 20px;
-  gap: 5px;
+  gap: var(--gap-xs);
 }
+
+/* Responsive */
 
 @media screen and (max-width: 450px) {
   header ul {
-    gap: 5px;
-    padding: 0px 5px;
+    gap: var(--gap-xs);
+    padding: 0px var(--padding-s);
   }
 
   a:hover {
