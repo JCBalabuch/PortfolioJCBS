@@ -69,8 +69,9 @@
   .aboutModal {
     display: flex;
     flex-direction: column;
-    height: 60%;
-    width: 60%;
+    height: 80%;
+    width: 80%;
+    top: 10%;
     display: none;
     padding: var(--padding-m) 0;
   }

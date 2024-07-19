@@ -1,5 +1,5 @@
-import { HOME } from '../../Data/Data';
 import './Home.css';
+import { HOME } from '../../../Data/Data';
 
 // Home Template
 const Home = () => {

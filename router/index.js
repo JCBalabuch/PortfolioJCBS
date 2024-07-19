@@ -1,8 +1,8 @@
-import Home from '/Pages/Home/Home';
-import Projects from '/Pages/Projects/Projects';
-import About from '/Pages/About/About';
-import NotFound from '/Pages/NotFound/NotFound';
-import { aboutCards } from '../components/AboutMeCards/AboutMeCards';
+import Home from '../src/Pages/Home/Home';
+import Projects from '../src/Pages/Projects/Projects';
+import About from '../src/Pages/About/About';
+import NotFound from '../src/Pages/NotFound/NotFound';
+import { aboutCards } from '../src/components/AboutMeCards/AboutMeCards';
 import { aboutCardsData } from '../Data/Data';
 
 // Routes

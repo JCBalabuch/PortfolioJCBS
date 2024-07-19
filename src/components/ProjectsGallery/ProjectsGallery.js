@@ -1,5 +1,5 @@
 import './ProjectsGallery.css';
-import { PROJECTS, TECHS } from '../../Data/Data';
+import { PROJECTS, TECHS } from '../../../Data/Data';
 
 const projectsCards = (projects) => {
   const projectsGallery = document.createElement('div');

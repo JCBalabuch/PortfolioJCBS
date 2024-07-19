@@ -228,15 +228,13 @@ export const TECHS = {
 export const aboutMeText = {
   aboutMe: 'About me',
   aboutMeText: `
-  I am a professional with 25 years of experience in the management and administrative area, who has decided to challenge herself to a career change towards Full Stack Developer.<br>
+  With 25 years of experience in management and administration, I'm passionate about web development and actively honing my skills to become a proficient Full Stack Developer.<br>
   <br>
-  Even though I am taking my first steps, I know that all my managerial background and the softskills I have help me to have a very particular vision when it comes to face the challenges and projects in programming.<br>
+  My background has equipped me with valuable skills in project management, communication, and critical thinking – all essential for success in this field.<br>
   <br>
-  If you are interested in knowing my management profile I invite you to visit my LinkedIn.<br>
+  To learn more about my management experience and expertise, connect with me on <a href='https://www.linkedin.com/in/jenifferbalabuch/' target='_blank'>LinkedIn</a>.<br>
   <br>
-  If you want to see my path as a developer visit my projects page.<br>
-  <br>
-  If you want to know my purpose, values and soft and hard skills click on the images below.
+  Explore my developer journey and skillset through the project and "About Me" sections below.<br>
   `,
 };
 

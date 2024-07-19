@@ -2,7 +2,7 @@ import './About.css';
 import { aboutMeTemplate } from '../../components/AboutMe/AboutMe';
 import { aboutMeCards } from '../../components/AboutMeCards/AboutMeCards';
 import { aboutModalTemplate } from '../../components/AboutModal/AboutModal';
-import { aboutMeText } from '../../Data/Data';
+import { aboutMeText } from '../../../Data/Data';
 
 // Create About Template
 const aboutTemplate = () => {

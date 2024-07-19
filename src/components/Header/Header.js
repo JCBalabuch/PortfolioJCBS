@@ -1,6 +1,6 @@
-import { HEADERLINKS } from '../../Data/Data';
-import { linkTemplate } from '../Link/Link';
 import './Header.css';
+import { HEADERLINKS } from '../../../Data/Data';
+import { linkTemplate } from '../Link/Link';
 
 const Header = () => {
   const header = document.querySelector('header');

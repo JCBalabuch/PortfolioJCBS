@@ -1,7 +1,7 @@
 import './style.css';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import { addListeners, router } from './router';
+import Header from './src/components/Header/Header';
+import Footer from './src/components/Footer/Footer';
+import { addListeners, router } from './router/index';
 
 Header();
 Footer();
